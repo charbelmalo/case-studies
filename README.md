@@ -29,9 +29,9 @@ measured, it says so.
 | **PrismaticShadersPack** | 9 effects authored three times over — WebGL2 GLSL, WGSL and Metal MSL — across 28 files. | <https://github.com/charbelmalo/PrismaticShadersPack> |
 | **Semantha** | SAE-diffing client for comparing sparse-autoencoder features between models (~2,838 LOC). | <https://huggingface.co/spaces/charbel-malo/Semantha> |
 
-Related background: [The Human–Agent Experience Layer](https://charbelmalo.online) —
-steerable interfaces, deterministic boundaries and trust protocols for enterprise AI
-adoption. Its headline finding: human-in-the-loop steering is **4× more effective at
+Related background: *The Human–Agent Experience Layer* — steerable interfaces,
+deterministic boundaries and trust protocols for enterprise AI adoption (write-up
+available on request). Its headline finding: human-in-the-loop steering is **4× more effective at
 decision checkpoints during agent execution** than post-hoc review of finished output,
 and schema-constrained tool boundaries eliminated **80% of regressions**.
 
