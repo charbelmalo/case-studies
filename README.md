@@ -25,7 +25,7 @@ measured, it says so.
 | Artifact | What it is | Link |
 |---|---|---|
 | **Magmaflow (live)** | The spatial creative environment, running | <https://design.charbelmalo.online> |
-| **nebulai** | Mechanistic-interpretability visualizer — tokens / SAE features / MLP neurons → UMAP → HDBSCAN → LLM auto-naming → WebGPU map. Renders 50,000+ feature nodes at 60 FPS via WGSL compute shaders. | <https://github.com/charbelmalo/nebulai> |
+| **nebulai** | WebGPU atlas of what small language models learned — tokens / SAE features / MLP neurons → UMAP → HDBSCAN → auto-naming → WebGPU map (WebGL2 fallback). A 49,857-point GPT-2 token map stays interactive on a laptop; nine models mapped, Pythia-70m to Muse-Glimmer-30B, read over HTTP range requests; every map ships with its validation numbers. | <https://github.com/charbelmalo/nebulai> |
 | **cox-protocol-package** | npm CLI + JSON-Schema spec for agent-readable UI/design contracts. 84% adoption across 35+ engineers and designers at VML Middle East; 40% reduction in visual-regression bugs. | [repo](https://github.com/charbelmalo/cox-protocol-package) · [npm](https://www.npmjs.com/package/cox-protocol-package) |
 | **PrismaticShadersPack** | 9 effects authored three times over — WebGL2 GLSL, WGSL and Metal MSL — across 28 files. | <https://github.com/charbelmalo/PrismaticShadersPack> |
 | **Semantha** | SAE-diffing client for comparing sparse-autoencoder features between models (~2,838 LOC). | <https://huggingface.co/spaces/charbel-malo/Semantha> |
@@ -45,7 +45,7 @@ and schema-constrained tool boundaries eliminated **80% of regressions**.
 - Production scale beyond internal tooling at VML Middle East.
 - Published research papers.
 
-The metrics that are cited (cox-protocol adoption, nebulai frame budget, the 4×
+The metrics that are cited (cox-protocol adoption, nebulai's validation numbers, the 4×
 steering result, the 80% regression reduction) come from work with real users or real
 measurement. The rest is described as what it is: built, running, unmeasured.
 
